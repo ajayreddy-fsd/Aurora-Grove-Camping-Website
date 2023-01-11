@@ -1,0 +1,202 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* !styling for navbar */
+/* !styling for navbar */
+/* !styling for navbar */
+/* !styling for navbar */
+
+.navbar {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  background: black;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  font-size: 1.75rem;
+}
+
+/* ?in bootstrap, md >= 768px */
+@media screen and (min-width: 768px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar .nav-link {
+    transition: all 0.5s 0s;
+  }
+
+  .navbar .nav-link:hover {
+    border-bottom: solid white 1px;
+  }
+}
+
+/* !styling for navbar */
+/* !styling for navbar */
+/* !styling for navbar */
+/* !styling for navbar */
+
+/* !styling for hero */
+/* !styling for hero */
+/* !styling for hero */
+/* !styling for hero */
+
+.hero .card .card-img {
+  height: 73vh;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+.hero .card .card-body {
+  background: rgba(0, 0, 0, 0.15);
+  /* ?why? to give linear-gradient to the card-img */
+}
+
+.hero .card .card-title {
+  font-size: 1.7rem;
+}
+
+.hero .card .card-subtitle {
+  font-family: "Questrial", sans-serif;
+  font-size: 4rem;
+  line-height: 70px;
+}
+
+.hero .card .card-link {
+  font-size: 1.5rem;
+  border-radius: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .card .card-img {
+    height: 100vh;
+  }
+
+  .hero .card .card-title {
+    font-size: 2rem;
+  }
+
+  .hero .card .card-subtitle {
+    font-size: 6rem;
+    line-height: 100px;
+  }
+}
+
+/* !styling for hero */
+/* !styling for hero */
+/* !styling for hero */
+/* !styling for hero */
+
+/* !styling for about */
+/* !styling for about */
+/* !styling for about */
+/* !styling for about */
+
+@media screen and (min-width: 768px) {
+  .about .card-title {
+    font-size: 27px;
+  }
+}
+
+/* !styling for about */
+/* !styling for about */
+/* !styling for about */
+/* !styling for about */
+
+/* !styling for reviews section */
+/* !styling for reviews section */
+/* !styling for reviews section */
+/* !styling for reviews section */
+
+.reviews .fa-quote-left {
+  font-size: 2rem;
+  opacity: 0.4;
+}
+
+/* !styling for reviews section */
+/* !styling for reviews section */
+/* !styling for reviews section */
+/* !styling for reviews section */
+
+/* !styling for carousel section */
+/* !styling for carousel section */
+/* !styling for carousel section */
+/* !styling for carousel section */
+
+.camp-carousel .info a {
+  transition: all 0.5s 0s;
+}
+
+.camp-carousel .info a:hover {
+  text-decoration: underline;
+}
+
+/* !styling for carousel section */
+/* !styling for carousel section */
+/* !styling for carousel section */
+/* !styling for carousel section */
+
+/* !styling for gallery section */
+/* !styling for gallery section */
+/* !styling for gallery section */
+/* !styling for gallery section */
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery .fa-quote-left {
+  font-size: 2rem;
+}
+
+.gallery blockquote .lead {
+  font-weight: 400;
+}
+
+.gallery .blockquote-footer {
+  font-size: 1rem;
+}
+
+/* !styling for gallery section */
+/* !styling for gallery section */
+/* !styling for gallery section */
+/* !styling for gallery section */
+
+/* !styling for form section */
+/* !styling for form section */
+/* !styling for form section */
+/* !styling for form section */
+
+.form {
+  background: rgb(48, 56, 65);
+}
+
+.form h5 {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.form form {
+  max-width: 500px;
+}
+
+/* !styling for form section */
+/* !styling for form section */
+/* !styling for form section */
+/* !styling for form section */
+
+/* !styling for nav section */
+/* !styling for nav section */
+/* !styling for nav section */
+/* !styling for nav section */
+
+.nav-section a {
+  font-weight: lighter;
+}
+
+/* !styling for nav section */
+/* !styling for nav section */
+/* !styling for nav section */
+/* !styling for nav section */
